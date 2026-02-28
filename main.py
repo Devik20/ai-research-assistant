@@ -1,25 +1,31 @@
-from openai import OpenAI
-from dotenv import load_dotenv
-import os
+from transformers import pipeline
 
-# Load environment variables
-load_dotenv()
-
-# Create client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
-def ask_llm(question):
-    response = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[
-            {"role": "user", "content": question}
-        ]
+def load_llm():
+    generator = pipeline(
+        task="text2text-generation",
+        model="google/flan-t5-base"
     )
-    return response.choices[0].message.content
+    return generator
 
+def ask_llm(generator, question):
+    prompt = f"Answer the following question clearly and simply:\n\n{question}"
+
+    response = generator(
+        prompt,
+        max_new_tokens=150,
+        temperature=0.7
+    )
+
+    return response[0]["generated_text"]
 
 if __name__ == "__main__":
-    user_question = input("Ask something: ")
-    answer = ask_llm(user_question)
-    print("\nAnswer:\n")
-    print(answer)
+    print("Loading model... (first time may take a minute)")
+    llm = load_llm()
+
+    while True:
+        question = input("\nAsk something (type 'exit' to quit): ")
+        if question.lower() == "exit":
+            break
+
+        answer = ask_llm(llm, question)
+        print("\nAnswer:\n", answer)
