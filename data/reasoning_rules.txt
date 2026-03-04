@@ -1,0 +1,18 @@
+Research Evaluation Decision Rules
+
+If a paper does not report dataset size, reduce Data Quality score.
+
+If statistical testing (p-value, confidence interval) is missing,
+flag Statistical Weakness.
+
+If no ablation study is present,
+reduce Experimental Rigor score.
+
+If code is not publicly available,
+reduce Reproducibility score.
+
+If limitations are not discussed,
+flag Transparency Issue.
+
+If no baseline comparison is provided,
+reduce Methodology Strength score.

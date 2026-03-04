@@ -1,0 +1,47 @@
+Research Quality Evaluation Framework
+
+1. Problem Statement
+- Is the research question clearly defined?
+- Is it specific and measurable?
+- Does it address a real gap in literature?
+
+2. Literature Review
+- Are relevant papers cited?
+- Is the review recent (last 5–10 years)?
+- Does it critically analyze prior work?
+
+3. Methodology
+- Is the method appropriate for the research question?
+- Is sample size sufficient?
+- Are assumptions clearly stated?
+- Are baselines compared?
+
+4. Data Quality
+- Is dataset publicly available?
+- Is preprocessing explained?
+- Is data biased?
+
+5. Experimental Design
+- Are experiments reproducible?
+- Are hyperparameters disclosed?
+- Are train/test splits proper?
+
+6. Statistical Validity
+- Are statistical tests used?
+- Are p-values or confidence intervals reported?
+- Is overfitting addressed?
+
+7. Results & Analysis
+- Are results compared to SOTA?
+- Are ablation studies performed?
+- Are limitations discussed?
+
+8. Ethical Considerations
+- Bias?
+- Privacy?
+- Environmental impact?
+
+9. Reproducibility Score Factors
+- Code available?
+- Dataset available?
+- Random seed mentioned?

@@ -1,0 +1,12 @@
+Common Research Red Flags
+
+- No clear research question
+- Very small dataset without justification
+- No baseline comparison
+- No statistical significance testing
+- Claims not supported by results
+- No ablation study
+- No limitation section
+- Excessive self-citations
+- Unexplained preprocessing
+- No reproducibility details

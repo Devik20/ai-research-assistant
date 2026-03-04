@@ -1,0 +1,23 @@
+ML Research Evaluation Criteria
+
+- Dataset size and diversity
+- Cross-validation usage
+- Overfitting prevention
+- Proper train/val/test split
+- Use of baselines
+- Model complexity justification
+- Ablation studies
+- Computational cost reporting
+- Generalization testing
+
+Research Scoring Rubric (0–10)
+
+Problem Clarity (0–2)
+Methodology Strength (0–2)
+Experimental Design (0–2)
+Statistical Rigor (0–1)
+Reproducibility (0–1)
+Novelty (0–1)
+Ethics (0–1)
+
+Total: 10

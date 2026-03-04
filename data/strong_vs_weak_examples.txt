@@ -1,0 +1,14 @@
+Strong Research Example Characteristics:
+- Clear hypothesis
+- Large, diverse dataset
+- Transparent methodology
+- Code and dataset publicly released
+- Multiple baseline comparisons
+- Statistical validation
+
+Weak Research Example Characteristics:
+- Vague objective
+- No comparison to existing methods
+- No quantitative metrics
+- Only accuracy reported
+- No reproducibility details
