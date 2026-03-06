@@ -67,11 +67,17 @@ This project uses a Retrieval-Augmented Generation (RAG) pipeline:
 
 This improves contextual accuracy compared to direct prompting.
 
----
+
 
 ## 🖼️ Application Preview
+<img width="1914" height="1013" alt="Screenshot 2026-03-06 095851" src="https://github.com/user-attachments/assets/f4a59cfa-9fd4-43f6-be63-e1212229b363" />
 
-(Add screenshot here)
+<img width="1915" height="1016" alt="Screenshot 2026-03-06 095907" src="https://github.com/user-attachments/assets/850a3617-f3b5-4af6-a93c-92a171874e25" />
+
+<img width="1919" height="1017" alt="Screenshot 2026-03-06 095919" src="https://github.com/user-attachments/assets/e1c5bf17-d9cf-434c-b752-adcea7e1df5d" />
+
+<img width="1906" height="1023" alt="Screenshot 2026-03-06 095836" src="https://github.com/user-attachments/assets/4282c20b-134b-4d57-901f-8b6e880a0f2b" />
+
 
 ---
 
